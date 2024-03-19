@@ -7,7 +7,7 @@ public class BinaryTreeNode<T>
     public BinaryTreeNode<T>? Right { get; set; }
 }
 
-public class BinaryTree<T>
+public struct BinaryTree<T>
 {
     public BinaryTreeNode<T> CreateNode(T data)
     {
